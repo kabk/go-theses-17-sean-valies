@@ -1,1 +1,0 @@
-# go-theses-17-sean-valies
