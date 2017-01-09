@@ -1,0 +1,47 @@
+
+@media print {
+@page {
+	margin: 0;
+	}
+
+body {
+	margin: 2cm;
+	-webkit-print-color-adjust: exact;
+	} 
+
+
+.title-image{
+	margin-bottom: 10cm;
+	margin-left: 0cm;
+	margin-right: 0cm;
+	margin-top: 10cm;
+	background-color: #1D1F1F !important;}
+	}
+	
+.question {
+	margin-bottom: 20cm;
+	margin-left: 0cm;
+	margin-right: 0cm;
+	margin-top: 20cm !important;
+	background: #1D1F1F !important;
+	max-width: width;	
+	font-size:86pt;
+	color: white;
+	}
+
+	
+    .grid-item {page-break-before: always;}
+    .grid-item--width2 {page-break-before: always;}
+    .grid-item--width3 {page-break-before: always;}
+    .grid-item--width4 {page-break-before: always;}
+    .grid-item--width2 {page-break-before: always;}
+    .grid-item--width2 {page-break-before: always;}
+    .grid-item--width2 {page-break-before: always;}
+ 
+
+
+.noIbar {
+cursor: default;
+}
+}
+/* PRINT BLACK AND WHITE */
